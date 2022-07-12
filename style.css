@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: linear-gradient(to right, rgb(44, 62, 80), rgb(189, 195, 199));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.trafficLight{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 50px;
+    width: 200px;
+    height: 500px;
+    padding: 5px;
+}
+
+.light{
+    border: solid 1px white;
+    border-radius: 50%;
+    height: 150px;
+    width: 130px;
+    margin: 10px;
+    box-shadow: 0 0 2px 2px white;
+}
+
+.red-off{
+    background-color: rgb(138, 4, 4);
+}
+.yellow-off{
+    background-color: rgb(122, 110, 2);
+}
+.green-off{
+    background-color: rgb(3, 109, 3);
+}
+
+.btn {
+    margin: 5vh auto;
+    width: 5vw;
+}

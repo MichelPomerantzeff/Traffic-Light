@@ -18,7 +18,7 @@ main {
     flex-direction: column;
     align-items: center;
     border: solid 1px white;
-    border-radius: 50px;
+    border-radius: 75px;
     width: 200px;
     height: 500px;
     padding: 5px;
@@ -33,14 +33,42 @@ main {
     box-shadow: 0 0 2px 2px white;
 }
 
-.red-off{
-    background-color: rgb(138, 4, 4);
+.red{
+    background-color: rgb(83, 8, 8);
+    border: solid 1px white;
+    border-radius: 50%;
+    height: 150px;
+    width: 130px;
+    margin: 10px;
+    box-shadow: 0 0 2px 2px white;
 }
-.yellow-off{
-    background-color: rgb(122, 110, 2);
+.yellow{
+    background-color: rgb(95, 86, 8);
+    border: solid 1px white;
+    border-radius: 50%;
+    height: 150px;
+    width: 130px;
+    margin: 10px;
+    box-shadow: 0 0 2px 2px white;
 }
-.green-off{
-    background-color: rgb(3, 109, 3);
+.green{
+    background-color: rgb(8, 80, 8);
+    border: solid 1px white;
+    border-radius: 50%;
+    height: 150px;
+    width: 130px;
+    margin: 10px;
+    box-shadow: 0 0 2px 2px white;
+}
+
+.red-on{
+    background-color: rgb(231, 16, 16);
+}
+.yellow-on{
+    background-color: rgb(238, 216, 15);
+}
+.green-on{
+    background-color: rgb(15, 230, 15);
 }
 
 .btn {
